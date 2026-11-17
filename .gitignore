@@ -1,3 +1,10 @@
 tmp
 *.lock
 .idea/
+# Segredos e artefatos locais (limpeza de histórico)
+.env
+.env.*
+!.env.example
+*.pem
+atos-br-ia-sandbox-*.json
+/.env
